@@ -1,0 +1,79 @@
+@import url(' https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap')
+
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	
+	
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat',sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+
+}
+/* Global css goes here */
+.header-section{
+	width:100%;
+	
+	background: url(../images/banner.png) center top no-repeat;
+	background-size:cover;
+
+}
+.header-section{
+	background-color: transparent!important;
+	padding:40px 0px;
+} 
+.header-section.navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+	padding:5px 0px;
+}
+
+/*feature section code start */
+
+.feature-section{
+
+width: 100%
+padding:80px 0px;
+margin: 80px 0px;
+}
+.feature-section.inner-feature{
+	width:80%;
+	padding: 40px 10px;
+}
+.feature-section.img{
+	width:80px;
+	height:80px;
+	margin:15px auto;
+	border-radius: 50%;
+	border: 1px solid #ee;
+	
+	
+	}
+
+	/*course section code start */
+
+.course-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #482A8F;
+}
+.course-section.h4{
+	
+	font-weight: 700;
+	color: #FFFFFF;
+}
+.course-section.card{
+	background: #482A8F;
+	margin: 30px 10px;
+}
+
+
